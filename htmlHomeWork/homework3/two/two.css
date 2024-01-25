@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);
+    width: 300px;
+  }
+  
+  .menu-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    color: white;
+  }
+  
+  .menu-item:hover {
+    background-color: rgb(184, 184, 184);
+  }
+  
+  .icon {
+    margin-right: 10px;
+    /* Здесь можно добавить стили для размера иконки */
+  }
+  img {
+      width: 100px;
+      height: 100px;
+  }

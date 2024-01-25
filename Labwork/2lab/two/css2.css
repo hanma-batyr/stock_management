@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(223, 223, 223);
+}
+h1 {
+    font-size: 35px;
+}
+p {
+    font-size:25px;
+    font-style: italic;
+}
+.text {
+    font-size:25px;
+}
+.spisok {
+    font-size: 25px;
+    background-color: rgb(161, 40, 40);
+}
+.tab {
+    margin: 25px;
+}
+h2 {
+    font-size: 30px;
+}

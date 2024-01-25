@@ -149,7 +149,19 @@ class Controller:
             selected_stock_index = int(input("Выберите порядковый номер склада: "))
 
             self.__current_stock = user_stocks[selected_stock_index - 1]
-            return
+            selected_stock = user_stocks[selected_stock_index - 1]
+
+            if not any(
+                item.stock_id == selected_stock.stock_id for item in database["items"]
+            ):
+                print("На складе ничего нет.")
+                return
+
+        self.__current_stock = selected_stock
+        return
+
+        self.__current_stock = selected_stock
+        return
 
     def add_items_to_stock(self):
         pass
@@ -165,13 +177,40 @@ class Controller:
 
 
 database = {
-    "users": [],
-    "stocks": [],
-    "items": [],
+    "users": [
+        User(user_id="1", phone="777777", username="admin", password="123"),
+    ],
+    "stocks": [
+        Stock(stock_id=1, location="Astana", capacity_sq_m=560.0, owner_id="1"),
+        Stock(stock_id=4, location="Almaty", capacity_sq_m=560.0, owner_id="1"),
+        Stock(stock_id=5, location="Karaganda", capacity_sq_m=560.0, owner_id="1"),
+        Stock(stock_id=2, location="Astana", capacity_sq_m=560.0, owner_id="2"),
+        Stock(stock_id=3, location="Astana", capacity_sq_m=560.0, owner_id="3"),
+    ],
+    "items": [
+        Item(
+            item_id=1,
+            stock_id=1,
+            name="Keyboard",
+            size=3.0,
+            category="electronics",
+            description="Крутая механическая программисткая клавиатура",
+            arrive_at=datetime(year=2024, month=1, day=18),
+            expiration_time=timedelta(days=900),
+        ),
+        Item(
+            item_id=2,
+            stock_id=1,
+            name="Mouse",
+            size=3.0,
+            category="electronics",
+            description="Крутая механическая программисткая мышка",
+            arrive_at=datetime(year=2024, month=1, day=18),
+            expiration_time=timedelta(days=900),
+        ),
+    ],
 }
 
 controller = Controller()
 controller.auth_user()
 controller.get_stock_information()
-
-print("Hello mirrrrr")

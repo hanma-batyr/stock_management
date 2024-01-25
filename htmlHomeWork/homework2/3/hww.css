@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(226, 225, 225);
+    font-size: 30px;
+}
+.zagolovok {
+    font-weight: 400;
+}
+.zagolovok2 {
+    font-size:18px;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 35px;
+}
+.text {
+    color: grey;
+}
+.work {
+    color: blue;
+}
+.mini {
+    list-style-type: none;
+}

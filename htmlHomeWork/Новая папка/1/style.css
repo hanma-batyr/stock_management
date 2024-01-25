@@ -1,0 +1,22 @@
+body {
+    background: rgb(224, 224, 224);
+    font-family: cursive; 
+}
+h1 {
+    text-align: center;
+    color:rgb(62, 39, 136)
+}
+h2 {
+    color: rgb(121, 131, 209);
+}
+.text1{
+    color: rgb(0, 0, 0);
+    font-family: fantasy;
+}
+.footnote {
+    font-size: small;
+}
+div.tex1 { 
+    font-family: 'Times New Roman', Times, serif;
+    color: aqua;
+}   

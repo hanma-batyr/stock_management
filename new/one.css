@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, sans-serif;
+    list-style-type: none;
+}
+
+:root {
+    --width: 1260px;
+    --bg-color: white;
+    --font-color: black;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg-color: black;
+        --font-color: white;
+    }
+}
+
+body {
+    background: var(--bg-color);
+}
+
+.container {
+    width: var(--width);
+    margin: auto;
+}
+
+#navBar {
+    height: 70px;
+    background: #56534c75;
+}
+
+#navBar > .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+}
+
+.menu::after,
+.menu::before {
+    content: "~";
+    text-align: center;
+}

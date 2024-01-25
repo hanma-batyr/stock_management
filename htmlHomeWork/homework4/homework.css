@@ -1,0 +1,23 @@
+body{
+    font-size: 50px;
+}
+
+table {
+    border-spacing: 0;
+}
+.table td {
+    border: 1px solid;
+}
+tr .language{ 
+    border: 1px solid;
+    position: sticky;
+    left: 0;
+    background: rgb(110, 0, 253);
+}
+.table th {
+    border-collapse: collapse;
+    border: 1px solid;
+    position: sticky;
+    top: 0;
+    background: rgb(110, 0, 253);
+}

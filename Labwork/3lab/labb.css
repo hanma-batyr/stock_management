@@ -1,0 +1,51 @@
+body {
+    background-color: purple;
+}
+
+.container {
+    margin: 10px;
+    background-color: purple;
+    padding: 660px;
+    border:10px double black;
+}
+
+.block1 {
+    margin: 1000px;
+    background-color: red;
+    top: 100px;
+    left: 100px;
+    margin: 10px 0;
+    padding: 100px;
+    position: absolute;
+}
+
+
+.block2 {
+    background-color:green;
+    top: 100px;
+    right: 100px;
+    margin: 10px 0;
+    padding: 200px;
+    position: absolute;
+    width: 400px;
+}
+
+.block3 {
+    background-color:blue;
+    top: 500px;
+    left: 100px;
+    margin: 10px 0; 
+    padding: 200px;
+    position: absolute;
+    width: -10px;
+    height: 150px;
+}
+.block4 {
+    background-color:yellow;
+    top: 600px;
+    right: 100px;
+    margin: 10px 0;
+    padding: 200px;
+    position: absolute;
+    width: 400px;
+}

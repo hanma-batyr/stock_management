@@ -1,0 +1,26 @@
+.block {
+    margin: 24px;
+    padding: 243px;
+    border-radius: 50% 0;
+    border: 20px dashed rebeccapurple
+}
+.one {
+    background-color: brown;
+}
+.two {
+    background-color: blue;
+}
+.three {
+    background-color: blueviolet;
+}
+.four {
+    background-color: rgb(42, 106, 161);
+}
+.five {
+    background-color: rgb(211, 127, 17);
+}
+
+body > .block:first-child {
+    position: fixed;
+    overflow: hidden;
+}

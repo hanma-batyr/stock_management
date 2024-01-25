@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+    perspective: 1000px;
+  }
+  
+   .wcb {
+    position: absolute;
+    z-index: -1;
+  }
+  
+  .door {
+    width: 1800px;
+    height: 1800px;
+  
+    background-color: #212121;
+  
+    transition: all 1s;
+  }
+  
+  .door_left {
+    transform-origin: left;
+  }
+  
+  .door_right {
+    transform-origin: right;
+  }
+  
+  .wrap:hover > .door_left {
+    transform: rotateY(73deg);
+  }
+  
+  .wrap:hover > .door_right {
+    transform: rotateY(-73deg);
+  }

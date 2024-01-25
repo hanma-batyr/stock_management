@@ -1,0 +1,18 @@
+body {
+    background-color: rebeccapurple;
+}
+.tab pre {
+    background-color: rgb(241, 147, 147);
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 100px;
+    margin-left: cm;
+}
+.spicok {
+    font-size: 15px;
+    background-color: royalblue;
+}
+.phone {
+    background-color: red;
+}

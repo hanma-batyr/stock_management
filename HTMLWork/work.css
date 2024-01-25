@@ -1,0 +1,140 @@
+:root {
+    --red: #c8102e;
+    --column: 70px;
+    --gap: 40px;
+    --container: 1280px;
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --bg: rgb(0, 0, 0);
+        --text: rgb(192, 190, 190);
+    }
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    --text
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: system-ui;
+    font-size: 14pt;
+}
+
+.grid {
+    width: var(--container);
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(12, var(--column));
+    gap: var(--gap);
+}
+
+.grid.container {
+    align-items: center;
+}
+
+.col-6 {
+    grid-column: span 6;
+    width: 620px;
+}
+
+body > header {
+    position: sticky;
+    width: 100%;
+    background: var(--bg);
+    height: 80px;
+    top: 0;
+}
+
+.colTwo {
+    grid-column: span 3;
+    color: red;
+}
+
+#navBar {
+    height: 100%;
+    align-items: center;
+}
+
+#navBar > menu {
+    grid-column: span 6;
+    list-style-type: none;
+    text-align: center;
+}
+
+#navBar > menu > li {
+    display: inline;
+    margin: 20px;
+}
+
+#navBar > menu > li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.buttons {
+    text-align: right;
+}
+
+button {
+    padding: 12px 18px;
+    border-radius: 8px;
+    display: inline-block;
+    border: 0;
+    background-color: var(--bg);
+}
+
+button.fill {
+    color: white;
+}
+
+button.fill.red {
+    background: var(--red);
+}
+
+button.fill.black {
+    background: black;
+}
+
+button.border {
+    background: none;
+    outline-width: 2px;
+    outline-offset: -2px;
+    outline-style: solid;
+}
+
+button.border.black {
+    outline-color: black;
+}
+
+button.border.red {
+    outline-color: var(--red);
+}
+
+.bigtext {
+    font-size: 50px;
+    color: var(--text)
+}
+
+.text {
+    padding-top: 50px;
+    font-size: 20px;
+    color: var(--text)
+}
+
+.btn-group {
+    padding-top: 50px;
+}
+
+.col-6 {
+    border-radius: 50px;
+}
+body {
+    background: var(--bg);
+}
+
+.el {
+    color:aliceblue
+}

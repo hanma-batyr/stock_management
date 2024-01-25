@@ -1,0 +1,68 @@
+body {
+  font-family: sans-serif;
+  color: white;
+}
+ul {
+  list-style-type: none;
+}
+.header {
+  background-color: darkred;
+  padding: 50px;
+  margin-bottom: 10px;
+}
+
+.header h2 {
+  padding-left: 40px;
+}
+
+.menu {
+  background-color: rgb(112, 35, 35);
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.menu h3 {
+  padding-left: 80px;
+  font-size: 25px;
+}
+
+.main {
+  display: flex;
+}
+
+.main div {
+  padding: 140px;
+  margin-right: 25px;
+}
+
+.left li {
+  background-color: darkred;  
+  padding: 10px 120px;
+  margin-top: 10px;
+  margin-right: 10px;
+  
+}
+o
+
+.main-content {
+  background-color: brown;
+}
+
+.main-content    {
+  background-color: darkred;
+  padding: 10px 120px;
+  margin-top: 10px;
+}
+.right ul li {
+  background-color: darkred;
+  padding: 10px 120px;
+  margin-top: 10px;
+  writing-mode: vertical-lr; 
+  text-orientation: upright; 
+}
+
+.footer {
+  margin-top: 10px;
+  background-color: brown;
+  padding: 20px;
+}

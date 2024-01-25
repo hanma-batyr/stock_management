@@ -1,0 +1,26 @@
+body{
+    background: rgb(150, 146, 146);
+    font-family: 'Courier New', Courier, monospace;
+}
+h1{ 
+    text-align: center;
+    color: brown;
+    font-size: 80px;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    font-size: 35px;
+}
+.players {
+    font-size: 65px;
+    font-family: fantasy;
+}
+.red {
+    color: brown;
+    background-color: rgb(129, 131, 131);
+}
+
+.black {
+    background-color: rgb(129, 131, 131);
+}

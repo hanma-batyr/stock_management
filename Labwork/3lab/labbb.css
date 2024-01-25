@@ -1,0 +1,38 @@
+.transParent {
+    position: absolute;
+    padding: 10px 100px 10px;
+    background-color: rgba(10, 10, 10, 0.5);
+}
+
+/* .transParent > p{
+    opacity: 0.3;
+    z-index: 1;
+
+} */
+
+.modal {
+    position: fixed;
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+    left: 40%;
+    background-color: white;
+    padding: 50px;
+    bottom: 30%;
+    border-radius: 5%;
+}
+
+.modal button{
+    padding: 10px;
+    border: none;
+    border-radius: 5%;
+}
+
+.accept {
+    background-color: rgb(6, 172, 6);
+}
+
+.cancel {
+    background-color: red;
+}
+

@@ -1,0 +1,104 @@
+
+.t{
+    width: 0px;
+    height: 0px;
+    animation-name: T;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}
+.i{
+    width: 250px;
+    height: 250px;
+    animation-name: t;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    
+    animation-iteration-count: infinite;
+}
+.g{
+    width: 250px;
+    height: 250px;
+    animation-name: t;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    
+    animation-iteration-count: infinite;
+}
+.a{
+    width: 250px;
+    height: 250px;
+    animation-name: t;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    
+    animation-iteration-count: infinite;
+}
+.y{
+    width: 250px;
+    height: 250px;
+    animation-name: t;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    
+    animation-iteration-count: infinite;
+}
+@keyframes T{
+    0%{
+        transform: translate(0px 0px);
+    }
+    50%{
+        transform: translate(250px 250px);
+        }
+    100%{
+        transform: translate(500px 100px);
+    }
+}
+
+@keyframes I{
+    0%{
+        transform: translate(0px 0px);
+    }
+    50%{
+        transform: translate(250px 250px);
+        }
+    100%{
+        transform: translate(500px 200px);
+    }
+}
+
+@keyframes G{
+    0%{
+        transform: translate(0px 0px);
+    }
+    50%{
+        transform: translate(250px 250px);
+        }
+    100%{
+        transform: translate(500px 300px);
+    }
+}
+
+@keyframes A{
+    0%{
+        transform: translate(0px 0px);
+    }
+    50%{
+        transform: translate(250px 250px);
+        }
+    100%{
+        transform: translate(500px 400px);
+    }
+}
+
+@keyframes Y{
+    0%{
+        transform: translate(0px 0px);
+    }
+    50%{
+        transform: translate(250px 250px);
+        }
+    100%{
+        transform: translate(500px 500px);
+    }
+}

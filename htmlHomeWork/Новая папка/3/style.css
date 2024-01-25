@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(226, 225, 223);
+}
+h1 {
+    text-align: center;
+    font-size: 46px;
+}
+h2 {
+    text-align: center;
+    font-size: 38px;
+}
+.text {
+    text-align: justify;
+    font-size: 30px;
+}
+.word {
+    border-bottom: 2px dotted #000;
+    text-decoration: none;
+}
+.word2 {
+    background-color: rgb(206, 206, 199);
+    color: rgb(180, 17, 17);
+}
+.word3 {
+    font-style: italic;
+}
+.text2 {
+    background-color: rgb(173, 23, 23);
+    font-size: 30px;
+}
+.text3 {
+    background-color: aqua;
+    font-size: 26px;
+}
+.text4 {
+    font-size: 26px;
+}
+span pre{
+        background-color: rgb(172, 170, 170);
+        font-size: 30px;
+}

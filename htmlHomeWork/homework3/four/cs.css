@@ -1,0 +1,128 @@
+body {
+    font-family: sans-serif;
+    color: white;
+    background-color: rgb(35, 63, 103);
+  }
+  
+  ul {
+    list-style-type: none;
+    margin-left: 150px;
+  }
+  
+  img {
+    width: 40px;
+    height: 40px;
+  }
+  
+  hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ffffff;
+    margin: 1em 5em;
+    padding: 0;
+  }
+  
+  p {
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .first-row a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .first-row a:hover {
+    text-decoration: underline;
+  }
+  
+  .second-row a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .second-row a:hover {
+    text-decoration: underline;
+  }
+  
+  a.fb {
+    background: url(fb_gray.png);
+    background-repeat: no-repeat;
+    background-position: centers;
+    background-size: cover;
+    display: block;
+    width: 40px;
+    height: 40px;
+  }
+  a.fb:hover {
+    background: url(IMAGES/fb.png);
+    background-repeat: no-repeat;
+    background-position: centers;
+    background-size: cover;
+    display: block;
+    width: 40px;
+    height: 40px;
+  }
+  
+  a.insta {
+    background: url(insta_gray.png);
+    background-repeat: no-repeat;
+    background-position: centers;
+    background-size: cover;
+    display: block;
+    width: 40px;
+    height: 40px;
+  }
+  a.insta:hover {
+    background: url(insta.png);
+    background-repeat: no-repeat;
+    background-position: centers;
+    background-size: cover;
+    display: block;
+    width: 40px;
+    height: 40px;
+  }
+  
+  a.youtube {
+    background: url(youtube_gray.png);
+    background-repeat: no-repeat;
+    background-position: centers;
+    background-size: cover;
+    display: block;
+    width: 40px;
+    height: 40px;
+  }
+  a.youtube:hover {
+    background: url(youtube.png);
+    background-repeat: no-repeat;
+    background-position: centers;
+    background-size: cover;
+    display: block;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .footer {
+    display: flex;
+    align-items: flex-start;
+    padding: 50px;
+  }
+  
+  .first-row li {
+    margin-top: 10px;
+  }
+  
+  .second-row li {
+    margin-top: 10px;
+  }
+  
+  .social {
+    display: flex;
+    margin-top: 50px;
+  }
+  
+  .social li {
+    margin-right: 40px;
+  }
+  

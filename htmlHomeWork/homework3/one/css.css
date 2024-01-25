@@ -1,0 +1,21 @@
+body {
+  font-family: sans-serif;
+}
+
+h1,
+h3 {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container .image-container {
+  border: 1px solid black;
+  border-radius: 10%;
+  margin: 10px;
+  padding: 20px;
+  padding-top: 30px;
+}

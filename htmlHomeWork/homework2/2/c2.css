@@ -1,0 +1,20 @@
+body {
+    background-color: rgb(224, 224, 224);
+    font-size: 40px;
+}
+.blue{
+    background-color: cornflowerblue;
+}
+.blues{
+    background-color: rgb(104, 219, 219);
+}
+.gray{
+    background-color: rgb(168, 166, 166);
+}
+.yes {
+    list-style-image: url(two.png);
+    text-decoration: line-through;
+}
+.no {
+    list-style-image: url(one.png);
+}
